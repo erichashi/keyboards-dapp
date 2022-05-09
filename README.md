@@ -1,15 +1,13 @@
-# Basic Sample Hardhat Project
+# Keyboard Generator Dapp, by Pointer.gg
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
+.env file setup
+alchemy.com > create app > view key > http
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+export NODE_API_URL=<YOUR_ALCHEMY_API_ENDPOINT>
+export RINKEBY_PRIVATE_KEY=<YOUR_PRIVATE_ETHEREUM_KEY>
+```
+
+run
+```shell
+yarn dev
 ```
